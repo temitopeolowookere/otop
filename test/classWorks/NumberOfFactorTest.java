@@ -9,7 +9,13 @@ class NumberOfFactorTest {
     public void TestNumberOfFactorsInAGivenNumber(){
         NumberOfFactor numberOfFactor = new NumberOfFactor();
         int number = numberOfFactor.factors(6);
-        assertEquals(4,number);
+        assertEquals(3,number);
+    }
+    @Test
+    public void TestThatANumberisPrime(){
+      NumberOfFactor numberOfFactor = new NumberOfFactor();
+      numberOfFactor.prime(8);
+      assertTrue(true);
     }
 
 
